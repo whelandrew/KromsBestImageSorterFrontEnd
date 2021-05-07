@@ -1,0 +1,61 @@
+p
+{
+	text-align: center;
+}
+
+#main
+{
+	border: white 1px solid;	
+	width: 100%;
+	height: auto;
+	display: inline-block;
+}
+
+#mainTable
+{
+	width: 100%;
+}
+
+#leftSide
+{
+	width:20%;
+	float: left;
+	background: green;
+	margin-left: 75px;
+	border: green 1px solid;
+	height: auto;
+}
+
+#center
+{
+	width:20%;
+	float: left;
+	background: green;
+	margin-left: 75px;
+	border: green 1px solid;
+	height: auto;
+}
+
+#rightSide
+{	
+	float: right;
+	width: 20%;
+	margin-right: 75px;
+	background: green;
+}
+
+#modal
+{
+	display: none;
+	position: fixed;
+	z-index:1;
+	background-color:rgba(0, 67, 265, 0.25);
+	width: 100%;
+	height: auto;
+}
+
+.modal_content 
+{
+	background-color: white;
+	position: absolute;
+}

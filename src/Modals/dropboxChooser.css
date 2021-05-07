@@ -1,0 +1,74 @@
+#folderList 
+{
+	list-style: none;		
+}
+
+ul {
+	font-size: large;
+}
+
+#spinner
+{
+	display:block;
+	width: 100%;
+	height: 100%;
+	z-index:5;
+	position: absolute;
+	background-color:black;
+	color: white;
+}
+
+#spinner span
+{
+	font-size: xxx-large;
+	display: block;
+    font-size: xxx-large;
+    display: block;
+	padding-top: 10% !important;
+	background-color:black;
+}
+
+.folderItem {
+	list-style: none;
+}
+
+.isChild {
+	font-size:small;	
+	background-color:green;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.childFolderList {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+.childFolder
+{
+	display:none;
+}
+
+.finalFolder
+{
+	color: grey;
+}

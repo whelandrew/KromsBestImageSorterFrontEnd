@@ -1,0 +1,47 @@
+#imageController
+{
+	width:100%;
+}
+
+.currImage
+{
+	width:90%;
+}
+
+#yesButton
+{
+	background: green;	
+}
+
+#noButton
+{
+	color: red;
+}
+
+#skipButton
+{
+	color: grey;
+}
+
+.dontknowImage
+{
+	
+}
+
+.prevImage
+{
+	width: 355px;
+    height: 355px;
+}
+.prevImage img
+{
+	height: auto;
+    width: 250px;
+    max-width: 250px;
+}
+
+button img
+{
+	width: 50px;
+	height: 25px;
+}
